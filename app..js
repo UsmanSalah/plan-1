@@ -1,7 +1,7 @@
 
 
 document.getElementById("loginForm").addEventListener("submit", function (event) {
-    event.preventDefault(); // Отключает стандартную отправку формы
+    event.preventDefault(); 
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
     const rememberMe = document.getElementById("rememberMe").checked;
@@ -10,7 +10,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
     console.log("Password:", password);
     console.log("Remember Me:", rememberMe);
   
-    // Здесь можно добавить функционал для отправки данных на сервер
+    
     alert("Login successful!");
   });
   
